@@ -228,6 +228,7 @@ a {
 
 .wrapper--full {
   width: var(--_sizes---100);
+  position: relative;
 }
 
 .wrapper--full.hero {
@@ -408,6 +409,7 @@ a {
 }
 
 .image--transition.flip {
+  inset: auto 0% 0%;
   transform: rotate(180deg);
 }
 
@@ -434,7 +436,7 @@ a {
 }
 
 .text--hero-tag {
-  font-size: 2vw;
+  font-size: 1.75vw;
   line-height: var(--line-height-1);
   margin-bottom: 3rem;
 }
@@ -562,6 +564,10 @@ a {
 
 .hide {
   display: none;
+}
+
+.color--redwood {
+  color: var(--_colors---redwood);
 }
 
 @media screen and (max-width: 991px) {
