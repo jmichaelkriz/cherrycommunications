@@ -1,4 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Dec 23 2025 14:37:04 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Dec 23 2025 15:59:28 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="68f7cf819f53ae0d1e0b0a7a" data-wf-site="68f7cf809f53ae0d1e0b0a17" lang="en-US">
 <head>
   <meta charset="utf-8">
@@ -212,6 +212,31 @@
           </div>
         </div>
       </div>
+      <div class="wrapper--carousel">
+        <div class="hide w-embed">
+          <style>
+.wrapper--carousel-list {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee-horizontal 60s linear infinite;
+}
+@keyframes marquee-horizontal {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media only screen and (min-width: 992px) {
+  .wrapper--carousel-list:hover {
+    animation-play-state: paused;
+  }
+}
+</style>
+        </div>
+        <div class="wrapper--carousel-list">
+          <div class="container--carousel-list"><img loading="lazy" src="images/wapo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/Forbes_logo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/CNBC_logo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/cop-logo-purple-480.webp" alt="" class="img--carousel-logo"><img loading="lazy" src="images/hr_black.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/NewYorkTimes.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/WSJ_Logo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/route-fifty-logo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/chronicle-of-higher-ed.svg" alt="the chronicle of higher education svg logo" class="img--carousel-logo"><img loading="lazy" src="images/hechinger-logo-1-300x60-1.webp" alt="Hechinger Report logo" class="img--carousel-logo"><img loading="lazy" src="images/brewbound.svg" alt="BrewBound svg logo in black" class="img--carousel-logo"><img loading="lazy" src="images/sevenfiftydaily.avif" alt="Seven Fifty Daily logo" class="img--carousel-logo"><img loading="lazy" src="images/spirits-business.svg" alt="The Spirits Business svg logo" class="img--carousel-logo"><img loading="lazy" src="images/Education_Week_logo.svg" alt="Education Week blue svg logo" class="img--carousel-logo"><img loading="lazy" src="images/District-Administration-Logo-full-color-1-300x80.webp" alt="District Administration logo" class="img--carousel-logo"></div>
+          <div class="container--carousel-list"><img loading="lazy" src="images/wapo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/Forbes_logo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/CNBC_logo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/cop-logo-purple-480.webp" alt="" class="img--carousel-logo"><img loading="lazy" src="images/hr_black.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/NewYorkTimes.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/WSJ_Logo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/route-fifty-logo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/chronicle-of-higher-ed.svg" alt="the chronicle of higher education svg logo" class="img--carousel-logo"><img loading="lazy" src="images/hechinger-logo-1-300x60-1.webp" alt="Hechinger Report logo" class="img--carousel-logo"><img loading="lazy" src="images/brewbound.svg" alt="BrewBound svg logo in black" class="img--carousel-logo"><img loading="lazy" src="images/sevenfiftydaily.avif" alt="Seven Fifty Daily logo" class="img--carousel-logo"><img loading="lazy" src="images/spirits-business.svg" alt="The Spirits Business svg logo" class="img--carousel-logo"><img loading="lazy" src="images/Education_Week_logo.svg" alt="Education Week blue svg logo" class="img--carousel-logo"><img loading="lazy" src="images/District-Administration-Logo-full-color-1-300x80.webp" alt="District Administration logo" class="img--carousel-logo"></div>
+        </div>
+      </div>
     </div>
     <div class="wrapper--full"><img src="images/waves--dark.svg" loading="lazy" alt="" class="image--transition flip"><img src="images/waves--dark.svg" loading="lazy" alt="" class="image--transition">
       <div class="wrapper--main">
@@ -240,7 +265,7 @@
             </div>
             <div class="container--bio-background"></div>
           </div>
-          <div id="w-node-_99bfd650-2864-7c0f-c63b-6fde77d14d99-1e0b0a7a" class="wrapper--bio"><img src="images/sofia.webp" loading="lazy" sizes="100vw" srcset="images/1a3278afe50672396a3c2a342fde6281_sarah-p-500.webp 500w, images/1a3278afe50672396a3c2a342fde6281_sarah-p-800.webp 800w, images/1a3278afe50672396a3c2a342fde6281_sarah-p-1080.webp 1080w, images/sofia.webp 1237w" alt="" class="image--headshot">
+          <div id="w-node-_99bfd650-2864-7c0f-c63b-6fde77d14d99-1e0b0a7a" class="wrapper--bio"><img src="images/sofia.webp" loading="lazy" sizes="(max-width: 1237px) 100vw, 1237px" srcset="images/1a3278afe50672396a3c2a342fde6281_sarah-p-500.webp 500w, images/1a3278afe50672396a3c2a342fde6281_sarah-p-800.webp 800w, images/1a3278afe50672396a3c2a342fde6281_sarah-p-1080.webp 1080w, images/sofia.webp 1237w" alt="" class="image--headshot">
             <h4>Sofia Picatoste</h4>
             <p class="p--bio">A communications professional and creative problem-solver specializing in PR strategy, media relations, and social media for clients across sectors, with deep expertise in the healthcare space.</p>
             <div class="wrapper--links">
@@ -425,32 +450,6 @@
             <div>Purpose-driven minds, creative hearts.</div>
             <a href="https://www.linkedin.com/in/bethcherry/" target="_blank">LinkedIn</a>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="wrapper--full">
-      <div class="wrapper--carousel">
-        <div class="hide w-embed">
-          <style>
-.wrapper--carousel-list {
-  position: absolute;
-  white-space: nowrap;
-  will-change: transform;
-  animation: marquee-horizontal 20s linear infinite;
-}
-@keyframes marquee-horizontal {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-@media only screen and (min-width: 992px) {
-  .wrapper--carousel-list:hover {
-    animation-play-state: paused;
-  }
-}
-</style>
-        </div>
-        <div class="wrapper--carousel-list">
-          <div class="container--carousel-list"><img loading="lazy" src="images/wapo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/Forbes_logo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/CNBC_logo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/cop-logo-purple-480.webp" alt="" class="img--carousel-logo"><img loading="lazy" src="images/hr_black.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/NewYorkTimes.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/WSJ_Logo.svg" alt="" class="img--carousel-logo"><img loading="lazy" src="images/route-fifty-logo.svg" alt="" class="img--carousel-logo"></div>
         </div>
       </div>
     </div>
